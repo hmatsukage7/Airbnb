@@ -89,6 +89,9 @@ print(f"country_code after fix: {df['country_code'].unique()}")
 <p align=center>
 <img src=https://i.imgur.com/FsCgfPx.png width=40%>
 
+### construction year
+convert from float to integer
+
 ### price
 Since the datatype for the price and service fee columns are both string and contains the dollar sign, we will need to remove the dollar sign and convert the datatype to integer or float. 
 ```python
@@ -106,6 +109,10 @@ print(f"service_fee after fix: \n{df['service_fee'].head()}")
 <img src=https://i.imgur.com/qwdqTzn.png width=30%>
 <p align=center>
 <img src=https://i.imgur.com/3jLIowS.png width=30%>
+
+### minimum nights, number of reviews, review rate number, calculated host listings and availability 365
+Fix from float to integer
+
     
 ## SQL
 ## Data Visualisation - PowerBI
