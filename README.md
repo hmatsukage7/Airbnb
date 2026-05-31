@@ -14,6 +14,10 @@ Check the columns and their datatypes
 ```python
 print(df.info())
 ```
+The column names are not consistently formatted as only some starts with capital letters and some contains space instead of underscores. We will fix this by making all the column names lower case and replace the space with underscore. 
+```python
+df.columns = df.columns.str.lower().str.replace(' ', '_')
+```
 Check if any columns contain null values
 ```python
 print(df.isnull().any())
