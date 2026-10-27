@@ -113,6 +113,3 @@ print(f"service_fee after fix: \n{df['service_fee'].head()}")
 ### minimum nights, number of reviews, review rate number, calculated host listings and availability 365
 Fix from float to integer
 
-    
-## SQL
-## Data Visualisation - PowerBI
